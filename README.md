@@ -1,0 +1,50 @@
+Project WAM (THIS IS DEV BRANCH FOR APP)
+======  
+# Whose at my Door
+This project uses OpenCV and dlib Facial Recognition models to notify users who is at their door. It is part of a larger project used to notify myself who is knocking on my dorm-room door.
+
+## Setup
+
+1. Clone the repository.
+
+2. Install the prerequisites
+
+**Download the pre-trained models and put them in the project directory**
+
+http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+
+http://dlib.net/files/dlib_face_recognition_resnet_model_v1.dat.bz2
+
+**Download modules:**
+This project requires OpenCV, SciKit-Image, and SciPy. Run the commands below:
+~~~
+pip3 install opencv-python 
+pip3 install scikit-image
+pip3 install scipy
+~~~   
+
+**Install CMake (WINDOWS USERS)**
+https://cmake.org/download/
+
+**Install dlib library**
+The dlib libary is required to use the pre-trained models. Clone the dlib repo in the project directory, then install using setup.py:
+
+~~~
+git clone https://github.com/davisking/dlib.git
+cd dlib
+python3 setup.py install
+~~~ 
+
+## Usage
+
+To add a person for facial recognition, put them in front of the camera and run addPerson.py
+To recognize a face, run main.py
+
+## Contributors
+
+- [Contributor 1](https://github.com/ncanora)
+- [Contributor 2](https://github.com/mikethebike)
+
+## Code Adaptation
+
+The face recognition is adapted from the user [Simple-FaceRec by user SSL0](https://github.com/SSL0/Simple-FaceRec). 
