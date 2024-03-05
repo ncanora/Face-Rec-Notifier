@@ -1,7 +1,6 @@
-Project WAM (THIS IS DEV BRANCH FOR APP)
+Facial Recognition Notifier
 ======  
-# Whose at my Door
-This project uses OpenCV and dlib Facial Recognition models to notify users who is at their door. It is part of a larger project used to notify myself who is knocking on my dorm-room door.
+This project uses OpenCV and dlib Facial Recognition models to recognize faces and send a notification via gmail.
 
 ## Setup
 
