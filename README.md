@@ -40,11 +40,6 @@ To add a person for facial recognition, put them in front of the camera and run 
 To recognize a face, run main.py
 Run send.py to allow permissions (first time only) and to send email notifications
 
-## Contributors
-
-- [Contributor 1](https://github.com/ncanora)
-- [Contributor 2](https://github.com/mikethebike)
-
 ## Code Adaptation
 
 The face recognition is adapted from the user [Simple-FaceRec by user SSL0](https://github.com/SSL0/Simple-FaceRec). 
