@@ -38,6 +38,7 @@ python3 setup.py install
 
 To add a person for facial recognition, put them in front of the camera and run addPerson.py
 To recognize a face, run main.py
+Download your email credentials.json file from gmail and copy to same directory as send.py
 Run send.py to allow permissions (first time only) and to send email notifications
 
 ## Code Adaptation
