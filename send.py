@@ -21,7 +21,7 @@ while (True):
         face, attach = mainCapture()
         cv2.imwrite('./faces/{}.jpg'.format(face), attach)
         message = MIMEText('Face recognized: ' + face)
-        message['to'] = 'njc2@williams.edu'
+        message['to'] = 'EMAIL_TO_SEND_TO_O@email.com'
         message['subject'] = 'Face recognized!'
         service = build('gmail', 'v1', credentials=creds)
 
